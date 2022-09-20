@@ -1,32 +1,13 @@
-const express = require('express');
-const app = express();
-const morgan = require('morgan')
-const path = require('path')
-const bodyParser = require('body-parser');
-const db = require('./db');
+const PORT = process.env.PORT || 8080
+const app = require('./app')
 
-db.sync().then(() => console.log('Database is synced'));
+const init = async () => {
+  try {
+    // start listening (and create a 'server' object representing our server)
+    app.listen(PORT, () => console.log(`Mixing it up on port ${PORT}`))
+  } catch (ex) {
+    console.log(ex)
+  }
+}
 
-app.use(morgan('dev'))
-
-app.use(express.static(path.join(__dirname, '../client')));
-
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
-
-app.use('/api', require('./api'));
-
-app.get('*', function (req, res) {
-  res.sendFile(path.join(__dirname, './path/to/index.html'));
-});
-
-app.get('*', function (req, res) {
-  res.sendFile(path.join(__dirname, './path/to/index.html'));
-});
-
-const port = process.env.PORT || 8080; // this can be very useful if you deploy to Heroku!
-app.listen(port, function () {
-  console.log("Knock, knock");
-  console.log("Who's there?");
-  console.log(`Your server, listening on port ${port}`);
-});
+init()

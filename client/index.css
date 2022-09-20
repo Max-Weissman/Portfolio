@@ -1,3 +1,9 @@
 div {
     color: grey;
 }
+img {
+    width: 10%;
+    height: 10%;
+    border-radius: 400px;
+    object-fit: cover
+}
