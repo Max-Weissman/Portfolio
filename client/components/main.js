@@ -13,8 +13,8 @@ export default class Main extends React.Component{
     render(){
         return (<div>
                     <h1>Max Weissman</h1>
-                    <img src="Max.jpg"/>
-                    <div>Max is a software developer specialized in JavaScript. 
+                    <img className="Max" src="Max.jpg"/>
+                    <div className="paragraph">Max is a software developer specialized in JavaScript. 
                     As a software developer Max is proficient at using methodical yet flexible problem solving techniques, 
                     tracking down the source of errors and quickly learning new tools to integrate into ongoing projects. 
                     Max has a background in synthetic organic chemistry research, primarily for the pharmaceutical industry. 
@@ -30,6 +30,10 @@ export default class Main extends React.Component{
                         <Route path='/Social' element={<Social />}/>
                         <Route path='/Campus' element={<Campus />}/>
                     </Routes>
+                    <div className="row">
+                        <a href="https://github.com/Max-Weissman"><img src="github.svg"/></a>
+                        <a href="https://www.linkedin.com/in/max-weissman/"><img src="LinkedIn.jpg"/></a>
+                    </div>
                 </div>);
     }
 }

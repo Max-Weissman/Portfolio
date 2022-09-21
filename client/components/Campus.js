@@ -4,7 +4,7 @@ import Iframe from 'react-iframe'
 const Pixi = () => {
     return(<div>
                 <h2>Campus</h2>
-                <div>A prototype app that manages a university with multiple campuses and students.</div>
+                <div className="paragraph">A prototype app that manages a university with multiple campuses and students.</div>
                 <br />
                 <div>Technologies: React, Redux, Axios, Express, Sequelize</div>
                 <div>Language: Javascript</div>

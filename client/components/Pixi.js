@@ -4,7 +4,7 @@ import Iframe from 'react-iframe'
 const Pixi = () => {
     return(<div>
                 <h2>Princess Pixi</h2>
-                <div>Princess Pixi is a short 2D maze game.
+                <div className="paragraph">Princess Pixi is a short 2D maze game.
                 The app uses PixiJS's sprite manipulation with Javascript based algorithms.</div>
                 <br />
                 <div>Technologies: PixiJS</div>
@@ -15,7 +15,7 @@ const Pixi = () => {
                     height="450px"
                     display="initial"
                     position="relative"/>
-                <a href="https://max-weissman.github.io/Stackathon/">Try it out!</a>
+                <a href="https://max-weissman.github.io/Stackathon/" className="try">Try it out!</a>
            </div>)
 }
 
