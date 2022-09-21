@@ -15,7 +15,11 @@ const Pixi = () => {
                     height="450px"
                     display="initial"
                     position="relative"/>
-                <a href="https://max-weissman.github.io/Stackathon/" className="try">Try it out!</a>
+                <br />
+                <a className="code" href="https://github.com/Max-Weissman/Stackathon">Source Code</a>
+                <br />
+                <a className="code" href="https://max-weissman.github.io/Stackathon/">Try it out!</a>
+                <br />
            </div>)
 }
 

@@ -16,7 +16,11 @@ const Pixi = () => {
                     height="450px"
                     display="initial"
                     position="relative"/>
-                <a href="https://tavern-minis.herokuapp.com/home" className="try">Try it out!</a>
+                <br />
+                <a className="code" href="https://github.com/Tavern-Minis/Tavern-Minis">Source Code</a>
+                <br />
+                <a className="code" href="https://tavern-minis.herokuapp.com/home">Try it out!</a>
+                <br />
            </div>)
 }
 

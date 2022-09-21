@@ -18,6 +18,12 @@ const Haven = () => {
                     height="450px"
                     display="initial"
                     position="relative"/>
+                <br />
+                <a className="code" href="https://github.com/2206-capstone-YMMV/Haven">Source Code</a>
+                <br />
+                <div>Check out Haven by using the Expo Go app on your phone</div>
+                <img src="https://user-images.githubusercontent.com/100179946/188930768-03ee959f-4820-40be-b1e7-f0402c8ea084.png"/>
+                <br />
            </div>)
 }
 

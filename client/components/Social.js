@@ -4,8 +4,8 @@ import Iframe from 'react-iframe'
 const Pixi = () => {
     return(<div>
                 <h2>The Social Network</h2>
-                <div className="paragraph">The Social Network is an app for recording your social connections. 
-                Input your relation and closeness to anyone you know and watch a network graph slowly build out.</div>
+                <div className="paragraph">The Social Network is an app for recording social connections. 
+                Users can input relations and closeness to anyone they know and watch a network graph slowly fill out.</div>
                 <br />
                 <div>Technologies: SQL, HTML, CSS, Flask, Jinja</div>
                 <div>Languages: Python, Javascript</div>
@@ -15,6 +15,7 @@ const Pixi = () => {
                     height="450px"
                     display="initial"
                     position="relative"/>
+                <br />
            </div>)
 }
 

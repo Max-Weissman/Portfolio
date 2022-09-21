@@ -14,6 +14,7 @@ const Pixi = () => {
                     height="450px"
                     display="initial"
                     position="relative"/>
+                <br />
            </div>)
 }
 
