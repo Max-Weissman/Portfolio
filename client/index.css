@@ -12,6 +12,10 @@ div {
     font-family: sans-serif;
 }
 
+.content {
+    width: 100%;
+}
+
 h1 {
     background-color: #f2f5f5;
     width: 100%;

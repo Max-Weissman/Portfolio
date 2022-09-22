@@ -12,7 +12,7 @@ import Campus from './Campus'
 export default class Main extends React.Component{
     render(){
         let history = this.props.history
-        return (<div>
+        return (<div className="content">
                     <h1>Max Weissman</h1>
                     <img className="Max" src="Max.jpg"/>
                     <div className="line">Fullstack Software Developer</div>
