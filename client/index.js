@@ -8,8 +8,6 @@ import {createBrowserHistory} from 'history'
 
 const history = createBrowserHistory()
 
-console.log(history)
-
 ReactDOM.render(
   <Router history={history}>
     <Main history={history}/>
