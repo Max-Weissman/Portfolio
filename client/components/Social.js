@@ -2,7 +2,7 @@ import React from 'react';
 import Iframe from 'react-iframe'
 
 const Pixi = ({history}) => {
-    history.replace('/')
+    history.replace('/Portfolio')
     return(<div>
                 <h2>The Social Network</h2>
                 <div className="paragraph">The Social Network is an app for recording social connections. 

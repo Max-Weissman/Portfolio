@@ -2,7 +2,7 @@ import React from 'react';
 import Iframe from 'react-iframe'
 
 const Pixi = ({history}) => {
-    history.replace('/')
+    history.replace('/Portfolio')
     return(<div>
                 <h2>Tavern Minis</h2>
                 <div className="paragraph">An online store for purchasing character minis, monster minis, paints, dice and various accessories. 

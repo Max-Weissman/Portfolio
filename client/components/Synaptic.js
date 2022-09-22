@@ -2,7 +2,7 @@ import React from 'react';
 import Iframe from 'react-iframe'
 
 const Pixi = ({history}) => {
-    history.replace('/')
+    history.replace('/Portfolio')
     return(<div>
                 <h2>Color Gradient and Pixelate Maze</h2>
                 <div className="paragraph">Two apps using the neural networking tool, Synaptic, for machine learning.
