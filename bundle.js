@@ -3193,7 +3193,10 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const Pixi = () => {
+const Pixi = ({
+  history
+}) => {
+  history.replace('/');
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Campus"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "paragraph"
   }, "A prototype app that manages a university with multiple campuses and students."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, "Technologies: React, Redux, Axios, Express, Sequelize"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, "Language: Javascript"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_iframe__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -3225,7 +3228,10 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const Haven = () => {
+const Haven = ({
+  history
+}) => {
+  history.replace('/');
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Haven"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "paragraph"
   }, "Haven is a unique utility app designed to serve the communities of those in need. The aim of the app is to lend a hand to those who may not have any other avenue for support. The app is supported by special helper users who are able to offer special services or create events for people to take advantage of. Haven allows users to share and access information about their local area with a variety of different tools making sure that no user feels the need to step too far out of their comfort zone to get the support they need."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, "Technologies: React Native, Firebase, Expo"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, "Language: Javascript"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_iframe__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -3262,7 +3268,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const Navbar = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("nav", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, "Projects"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.Link, {
+const Navbar = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("nav", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.Link, {
   to: "/Haven"
 }, "Haven"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.Link, {
   to: "/Tavern"
@@ -3296,7 +3302,10 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const Pixi = () => {
+const Pixi = ({
+  history
+}) => {
+  history.replace('/');
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Princess Pixi"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "paragraph"
   }, "Princess Pixi is a short 2D maze game. The app uses PixiJS's sprite manipulation with Javascript based algorithms."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, "Technologies: PixiJS"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, "Language: Javascript"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_iframe__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -3334,7 +3343,10 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const Pixi = () => {
+const Pixi = ({
+  history
+}) => {
+  history.replace('/');
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "The Social Network"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "paragraph"
   }, "The Social Network is an app for recording social connections. Users can input relations and closeness to anyone they know and watch a network graph slowly fill out."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, "Technologies: SQL, HTML, CSS, Flask, Jinja"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, "Languages: Python, Javascript"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_iframe__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -3366,7 +3378,10 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const Pixi = () => {
+const Pixi = ({
+  history
+}) => {
+  history.replace('/');
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Color Gradient and Pixelate Maze"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "paragraph"
   }, "Two apps using the neural networking tool, Synaptic, for machine learning. The Color Gradient app takes in a wavelength of color and outputs its best guess of what the RGB value would be. The Pixelate Maze app allows you to draw mazes that can be checked for solvability either through an algorithm or using the trained neural network that is 99% effective."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, "Technologies: Synaptic, React"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, "Language: Javascript"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_iframe__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -3401,7 +3416,10 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const Pixi = () => {
+const Pixi = ({
+  history
+}) => {
+  history.replace('/');
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Tavern Minis"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "paragraph"
   }, "An online store for purchasing character minis, monster minis, paints, dice and various accessories. This app allows users to add, edit and checkout their cart. Admin users can update the catalogue of products and look at other user's information."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, "Technologies: React, Redux, Axios, Express, Sequelize"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, "Language: Javascript"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_iframe__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -3454,32 +3472,53 @@ __webpack_require__.r(__webpack_exports__);
 
 class Main extends (react__WEBPACK_IMPORTED_MODULE_0___default().Component) {
   render() {
+    let history = this.props.history;
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, "Max Weissman"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
       className: "Max",
       src: "Max.jpg"
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-      className: "paragraph"
-    }, "Max is a software developer specialized in JavaScript. As a software developer Max is proficient at using methodical yet flexible problem solving techniques, tracking down the source of errors and quickly learning new tools to integrate into ongoing projects. Max has a background in synthetic organic chemistry research, primarily for the pharmaceutical industry. His experiences in that field has taught him about problem solving, time management, coordinating multiple projects, communication and teamwork."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Navbar__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Routes, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Route, {
+      className: "line"
+    }, "Fullstack Software Developer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+      className: "line"
+    }, "Technologies: Javascript, HTML, CSS, Git/Github, Node, SQL, Express, React, Redux, React Native, Firebase, PostgreSQL, Machine Learning"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+      className: "line"
+    }, "Technical Skills: Problem Solving, Debugging, Documentation, Testing"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+      className: "line"
+    }, "Other Skills: Teamwork, Coordination, Time Management, Quick Learner"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Navbar__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Routes, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Route, {
       path: "/",
-      element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null)
+      element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+        history: history
+      })
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Route, {
       path: "/Haven",
-      element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Haven__WEBPACK_IMPORTED_MODULE_2__["default"], null)
+      element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Haven__WEBPACK_IMPORTED_MODULE_2__["default"], {
+        history: history
+      })
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Route, {
       path: "/Pixi",
-      element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Pixi__WEBPACK_IMPORTED_MODULE_3__["default"], null)
+      element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Pixi__WEBPACK_IMPORTED_MODULE_3__["default"], {
+        history: history
+      })
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Route, {
       path: "/Synaptic",
-      element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Synaptic__WEBPACK_IMPORTED_MODULE_4__["default"], null)
+      element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Synaptic__WEBPACK_IMPORTED_MODULE_4__["default"], {
+        history: history
+      })
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Route, {
       path: "/Tavern",
-      element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Tavern__WEBPACK_IMPORTED_MODULE_5__["default"], null)
+      element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Tavern__WEBPACK_IMPORTED_MODULE_5__["default"], {
+        history: history
+      })
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Route, {
       path: "/Social",
-      element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Social__WEBPACK_IMPORTED_MODULE_6__["default"], null)
+      element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Social__WEBPACK_IMPORTED_MODULE_6__["default"], {
+        history: history
+      })
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Route, {
       path: "/Campus",
-      element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Campus__WEBPACK_IMPORTED_MODULE_7__["default"], null)
+      element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Campus__WEBPACK_IMPORTED_MODULE_7__["default"], {
+        history: history
+      })
     })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
       className: "row"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
@@ -3516,7 +3555,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "body {\n    margin: 0;\n    background: linear-gradient(rgba(155,231,241,1) 0%, rgba(255,255,255,1) 100%);\n    border: solid 10px;\n}\n\ndiv {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    text-align: center;\n    font-family: sans-serif;\n}\n\nh1 {\n    background-color: #f2f5f5;\n    width: 100%;\n    margin: 0;\n    margin-bottom: 5px;\n    padding-top: 10px;\n    padding-bottom: 10px;\n    border-bottom: solid 3px;\n}\n\nimg {\n    width: 80px;\n    height: 80px;\n    border-radius: 10px;\n    margin-bottom: 10px;\n}\n\n.Max {\n    border-radius: 400px;\n    object-fit: cover;\n    background-color: black\n}\n\n.paragraph {\n    margin-left: 5%;\n    margin-right: 5%;\n    padding-top: 5px;\n    padding-bottom: 5px;\n    border-top: solid grey 1px;\n    border-bottom: solid grey 1px;\n}\n\nnav {\n    background-color: #f2f5f5;\n    margin-top: 10px;\n    border-radius: 10px;\n    border: solid;\n}\n\nh3 {\n    margin: 0;\n    text-decoration: underline\n}\n\na {\n    padding: 5px;\n    display: inline-block;\n    color: black;\n    text-decoration: none\n}\n\nnav a {\n    padding: 10px;\n}\n\n.code {\n    border: solid 2px;\n    border-radius: 20px;\n    padding-right: 10px;\n    padding-left: 10px;\n    font-size: larger;\n}\n\n.row {\n    width: 100%;\n    flex-direction: row;\n    justify-content: space-evenly;\n}", "",{"version":3,"sources":["webpack://./client/index.css"],"names":[],"mappings":"AAAA;IACI,SAAS;IACT,6EAA6E;IAC7E,kBAAkB;AACtB;;AAEA;IACI,aAAa;IACb,sBAAsB;IACtB,mBAAmB;IACnB,kBAAkB;IAClB,uBAAuB;AAC3B;;AAEA;IACI,yBAAyB;IACzB,WAAW;IACX,SAAS;IACT,kBAAkB;IAClB,iBAAiB;IACjB,oBAAoB;IACpB,wBAAwB;AAC5B;;AAEA;IACI,WAAW;IACX,YAAY;IACZ,mBAAmB;IACnB,mBAAmB;AACvB;;AAEA;IACI,oBAAoB;IACpB,iBAAiB;IACjB;AACJ;;AAEA;IACI,eAAe;IACf,gBAAgB;IAChB,gBAAgB;IAChB,mBAAmB;IACnB,0BAA0B;IAC1B,6BAA6B;AACjC;;AAEA;IACI,yBAAyB;IACzB,gBAAgB;IAChB,mBAAmB;IACnB,aAAa;AACjB;;AAEA;IACI,SAAS;IACT;AACJ;;AAEA;IACI,YAAY;IACZ,qBAAqB;IACrB,YAAY;IACZ;AACJ;;AAEA;IACI,aAAa;AACjB;;AAEA;IACI,iBAAiB;IACjB,mBAAmB;IACnB,mBAAmB;IACnB,kBAAkB;IAClB,iBAAiB;AACrB;;AAEA;IACI,WAAW;IACX,mBAAmB;IACnB,6BAA6B;AACjC","sourcesContent":["body {\n    margin: 0;\n    background: linear-gradient(rgba(155,231,241,1) 0%, rgba(255,255,255,1) 100%);\n    border: solid 10px;\n}\n\ndiv {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    text-align: center;\n    font-family: sans-serif;\n}\n\nh1 {\n    background-color: #f2f5f5;\n    width: 100%;\n    margin: 0;\n    margin-bottom: 5px;\n    padding-top: 10px;\n    padding-bottom: 10px;\n    border-bottom: solid 3px;\n}\n\nimg {\n    width: 80px;\n    height: 80px;\n    border-radius: 10px;\n    margin-bottom: 10px;\n}\n\n.Max {\n    border-radius: 400px;\n    object-fit: cover;\n    background-color: black\n}\n\n.paragraph {\n    margin-left: 5%;\n    margin-right: 5%;\n    padding-top: 5px;\n    padding-bottom: 5px;\n    border-top: solid grey 1px;\n    border-bottom: solid grey 1px;\n}\n\nnav {\n    background-color: #f2f5f5;\n    margin-top: 10px;\n    border-radius: 10px;\n    border: solid;\n}\n\nh3 {\n    margin: 0;\n    text-decoration: underline\n}\n\na {\n    padding: 5px;\n    display: inline-block;\n    color: black;\n    text-decoration: none\n}\n\nnav a {\n    padding: 10px;\n}\n\n.code {\n    border: solid 2px;\n    border-radius: 20px;\n    padding-right: 10px;\n    padding-left: 10px;\n    font-size: larger;\n}\n\n.row {\n    width: 100%;\n    flex-direction: row;\n    justify-content: space-evenly;\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "body {\n    margin: 0;\n    background: linear-gradient(rgba(155,231,241,1) 0%, rgba(255,255,255,1) 100%);\n    border: solid 10px;\n}\n\ndiv {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    text-align: center;\n    font-family: sans-serif;\n}\n\nh1 {\n    background-color: #f2f5f5;\n    width: 100%;\n    margin: 0;\n    margin-bottom: 5px;\n    padding-top: 10px;\n    padding-bottom: 10px;\n    border-bottom: solid 3px;\n}\n\nimg {\n    width: 80px;\n    height: 80px;\n    border-radius: 10px;\n    margin-bottom: 10px;\n}\n\n.Max {\n    border-radius: 400px;\n    object-fit: cover;\n    background-color: black\n}\n\n.line {\n    margin-left: 5%;\n    margin-right: 5%;\n    padding-top: 5px;\n    padding-bottom: 5px;\n    border-top: solid grey 1px;\n}\n\n.paragraph {\n    margin-left: 5%;\n    margin-right: 5%;\n    padding-top: 5px;\n    padding-bottom: 5px;\n    border-top: solid grey 1px;\n    border-bottom: solid grey 1px;\n}\n\n\nh3 {\n    margin: 0;\n    text-decoration: underline\n}\n\nnav {\n    padding-top: 10px;\n    padding-bottom: 10px;\n}\n\na {\n    padding: 5px;\n    display: inline-block;\n    color: black;\n    text-decoration: none;\n}\n\nnav a {\n    background-color: #f2f5f5;\n    border-radius: 20px;\n    border: solid 2px;\n    margin: 5px;\n}\n\nnav a:hover, .code:hover {\n    border-radius: 20px;\n    box-shadow: 7px 4px 5px grey;\n}\n\n.code {\n    background-color: #f2f5f5;\n    border: solid 2px;\n    border-radius: 20px;\n    padding-right: 10px;\n    padding-left: 10px;\n    font-size: larger;\n}\n\n.row {\n    width: 100%;\n    flex-direction: row;\n    justify-content: space-evenly;\n}\n\na img {\n    margin: 0;\n}\n\na img:hover {\n    box-shadow: 7px 4px 5px grey;\n}", "",{"version":3,"sources":["webpack://./client/index.css"],"names":[],"mappings":"AAAA;IACI,SAAS;IACT,6EAA6E;IAC7E,kBAAkB;AACtB;;AAEA;IACI,aAAa;IACb,sBAAsB;IACtB,mBAAmB;IACnB,kBAAkB;IAClB,uBAAuB;AAC3B;;AAEA;IACI,yBAAyB;IACzB,WAAW;IACX,SAAS;IACT,kBAAkB;IAClB,iBAAiB;IACjB,oBAAoB;IACpB,wBAAwB;AAC5B;;AAEA;IACI,WAAW;IACX,YAAY;IACZ,mBAAmB;IACnB,mBAAmB;AACvB;;AAEA;IACI,oBAAoB;IACpB,iBAAiB;IACjB;AACJ;;AAEA;IACI,eAAe;IACf,gBAAgB;IAChB,gBAAgB;IAChB,mBAAmB;IACnB,0BAA0B;AAC9B;;AAEA;IACI,eAAe;IACf,gBAAgB;IAChB,gBAAgB;IAChB,mBAAmB;IACnB,0BAA0B;IAC1B,6BAA6B;AACjC;;;AAGA;IACI,SAAS;IACT;AACJ;;AAEA;IACI,iBAAiB;IACjB,oBAAoB;AACxB;;AAEA;IACI,YAAY;IACZ,qBAAqB;IACrB,YAAY;IACZ,qBAAqB;AACzB;;AAEA;IACI,yBAAyB;IACzB,mBAAmB;IACnB,iBAAiB;IACjB,WAAW;AACf;;AAEA;IACI,mBAAmB;IACnB,4BAA4B;AAChC;;AAEA;IACI,yBAAyB;IACzB,iBAAiB;IACjB,mBAAmB;IACnB,mBAAmB;IACnB,kBAAkB;IAClB,iBAAiB;AACrB;;AAEA;IACI,WAAW;IACX,mBAAmB;IACnB,6BAA6B;AACjC;;AAEA;IACI,SAAS;AACb;;AAEA;IACI,4BAA4B;AAChC","sourcesContent":["body {\n    margin: 0;\n    background: linear-gradient(rgba(155,231,241,1) 0%, rgba(255,255,255,1) 100%);\n    border: solid 10px;\n}\n\ndiv {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    text-align: center;\n    font-family: sans-serif;\n}\n\nh1 {\n    background-color: #f2f5f5;\n    width: 100%;\n    margin: 0;\n    margin-bottom: 5px;\n    padding-top: 10px;\n    padding-bottom: 10px;\n    border-bottom: solid 3px;\n}\n\nimg {\n    width: 80px;\n    height: 80px;\n    border-radius: 10px;\n    margin-bottom: 10px;\n}\n\n.Max {\n    border-radius: 400px;\n    object-fit: cover;\n    background-color: black\n}\n\n.line {\n    margin-left: 5%;\n    margin-right: 5%;\n    padding-top: 5px;\n    padding-bottom: 5px;\n    border-top: solid grey 1px;\n}\n\n.paragraph {\n    margin-left: 5%;\n    margin-right: 5%;\n    padding-top: 5px;\n    padding-bottom: 5px;\n    border-top: solid grey 1px;\n    border-bottom: solid grey 1px;\n}\n\n\nh3 {\n    margin: 0;\n    text-decoration: underline\n}\n\nnav {\n    padding-top: 10px;\n    padding-bottom: 10px;\n}\n\na {\n    padding: 5px;\n    display: inline-block;\n    color: black;\n    text-decoration: none;\n}\n\nnav a {\n    background-color: #f2f5f5;\n    border-radius: 20px;\n    border: solid 2px;\n    margin: 5px;\n}\n\nnav a:hover, .code:hover {\n    border-radius: 20px;\n    box-shadow: 7px 4px 5px grey;\n}\n\n.code {\n    background-color: #f2f5f5;\n    border: solid 2px;\n    border-radius: 20px;\n    padding-right: 10px;\n    padding-left: 10px;\n    font-size: larger;\n}\n\n.row {\n    width: 100%;\n    flex-direction: row;\n    justify-content: space-evenly;\n}\n\na img {\n    margin: 0;\n}\n\na img:hover {\n    box-shadow: 7px 4px 5px grey;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -40874,9 +40913,12 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const history = (0,history__WEBPACK_IMPORTED_MODULE_4__.createBrowserHistory)();
+console.log(history);
 react_dom__WEBPACK_IMPORTED_MODULE_1__.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.BrowserRouter, {
   history: history
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_main__WEBPACK_IMPORTED_MODULE_2__["default"], null)), document.getElementById('app') // make sure this is the same as the id of the div in your index.html
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_main__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  history: history
+})), document.getElementById('app') // make sure this is the same as the id of the div in your index.html
 );
 })();
 
