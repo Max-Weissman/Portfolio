@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => (
     <nav>
-        <h3>Projects</h3>
         <Link to="/Haven">Haven</Link>
         <Link to="/Tavern">Tavern Minis</Link>
         <Link to="/Pixi">Princess Pixi</Link>

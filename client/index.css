@@ -35,6 +35,14 @@ img {
     background-color: black
 }
 
+.line {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: solid grey 1px;
+}
+
 .paragraph {
     margin-left: 5%;
     margin-right: 5%;
@@ -44,30 +52,38 @@ img {
     border-bottom: solid grey 1px;
 }
 
-nav {
-    background-color: #f2f5f5;
-    margin-top: 10px;
-    border-radius: 10px;
-    border: solid;
-}
 
 h3 {
     margin: 0;
     text-decoration: underline
 }
 
+nav {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 a {
     padding: 5px;
     display: inline-block;
     color: black;
-    text-decoration: none
+    text-decoration: none;
 }
 
 nav a {
-    padding: 10px;
+    background-color: #f2f5f5;
+    border-radius: 20px;
+    border: solid 2px;
+    margin: 5px;
+}
+
+nav a:hover, .code:hover {
+    border-radius: 20px;
+    box-shadow: 7px 4px 5px grey;
 }
 
 .code {
+    background-color: #f2f5f5;
     border: solid 2px;
     border-radius: 20px;
     padding-right: 10px;
@@ -79,4 +95,12 @@ nav a {
     width: 100%;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+a img {
+    margin: 0;
+}
+
+a img:hover {
+    box-shadow: 7px 4px 5px grey;
 }

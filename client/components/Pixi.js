@@ -1,7 +1,8 @@
 import React from 'react';
 import Iframe from 'react-iframe'
 
-const Pixi = () => {
+const Pixi = ({history}) => {
+    history.replace('/')
     return(<div>
                 <h2>Princess Pixi</h2>
                 <div className="paragraph">Princess Pixi is a short 2D maze game.

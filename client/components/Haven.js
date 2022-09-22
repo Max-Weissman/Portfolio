@@ -1,7 +1,8 @@
 import React from 'react';
 import Iframe from 'react-iframe'
 
-const Haven = () => {
+const Haven = ({history}) => {
+    history.replace('/')
     return(<div>
                 <h2>Haven</h2>
                 <div className="paragraph">Haven is a unique utility app designed to serve the communities of those in need. 

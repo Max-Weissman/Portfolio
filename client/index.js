@@ -8,9 +8,11 @@ import {createBrowserHistory} from 'history'
 
 const history = createBrowserHistory()
 
+console.log(history)
+
 ReactDOM.render(
   <Router history={history}>
-    <Main />
+    <Main history={history}/>
   </Router>,
   document.getElementById('app') // make sure this is the same as the id of the div in your index.html
 );

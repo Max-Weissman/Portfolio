@@ -11,24 +11,24 @@ import Campus from './Campus'
 
 export default class Main extends React.Component{
     render(){
+        let history = this.props.history
         return (<div>
                     <h1>Max Weissman</h1>
                     <img className="Max" src="Max.jpg"/>
-                    <div className="paragraph">Max is a software developer specialized in JavaScript. 
-                    As a software developer Max is proficient at using methodical yet flexible problem solving techniques, 
-                    tracking down the source of errors and quickly learning new tools to integrate into ongoing projects. 
-                    Max has a background in synthetic organic chemistry research, primarily for the pharmaceutical industry. 
-                    His experiences in that field has taught him about 
-                    problem solving, time management, coordinating multiple projects, communication and teamwork.</div>
+                    <div className="line">Fullstack Software Developer</div>
+                    <div className="line">Technologies: Javascript, HTML, CSS, Git/Github, Node, SQL, Express, React, Redux, React Native,
+                    Firebase, PostgreSQL, Machine Learning</div>
+                    <div className="line">Technical Skills: Problem Solving, Debugging, Documentation, Testing</div>
+                    <div className="line">Other Skills: Teamwork, Coordination, Time Management, Quick Learner</div>
                     <Navbar />
                     <Routes>
-                        <Route path='/' element={<div />}/>
-                        <Route path='/Haven' element={<Haven />}/>
-                        <Route path='/Pixi' element={<Pixi />}/>
-                        <Route path='/Synaptic' element={<Synaptic />}/>
-                        <Route path='/Tavern' element={<Tavern />}/>
-                        <Route path='/Social' element={<Social />}/>
-                        <Route path='/Campus' element={<Campus />}/>
+                        <Route path='/' element={<div history={history}/>}/>
+                        <Route path='/Haven' element={<Haven history={history}/>}/>
+                        <Route path='/Pixi' element={<Pixi history={history}/>}/>
+                        <Route path='/Synaptic' element={<Synaptic history={history}/>}/>
+                        <Route path='/Tavern' element={<Tavern history={history}/>}/>
+                        <Route path='/Social' element={<Social history={history}/>}/>
+                        <Route path='/Campus' element={<Campus history={history}/>}/>
                     </Routes>
                     <div className="row">
                         <a href="https://github.com/Max-Weissman"><img src="github.svg"/></a>
