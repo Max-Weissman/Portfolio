@@ -1,3 +1,89 @@
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(50%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes one {
+  0% {
+    opacity: 0
+  }
+  100% {
+    opacity: 1
+  }
+}
+
+@keyframes two {
+  0% {
+    opacity: 0
+  }
+  50% {
+    opacity: 0
+  }
+  100% {
+    opacity: 1
+  }
+}
+
+@keyframes three {
+  0% {
+    opacity: 0
+  }
+  66% {
+    opacity: 0
+  }
+  100% {
+    opacity: 1
+  }
+}
+
+@keyframes four {
+  0% {
+    opacity: 0
+  }
+  75% {
+    opacity: 0
+  }
+  100% {
+    opacity: 1
+  }
+}
+
+@keyframes five {
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.one {
+    animation: 1s one;
+}
+
+.two {
+    animation: 3s two;
+}
+
+.three {
+    animation: 5s three;
+}
+
+.four {
+    animation: 7s four;
+}
+
+.five {
+    animation: 9s five;
+}
+
 body {
     margin: 0;
     background: linear-gradient(rgba(155,231,241,1) 0%, rgba(255,255,255,1) 100%);
@@ -84,6 +170,10 @@ nav a {
 nav a:hover, .code:hover {
     border-radius: 20px;
     box-shadow: 7px 4px 5px grey;
+}
+
+.transition {
+    animation: 1s ease-out 0s 1 slideInFromBottom;
 }
 
 .code {

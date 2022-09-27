@@ -3,7 +3,7 @@ import Iframe from 'react-iframe'
 
 const Pixi = ({history}) => {
     history.replace('/Portfolio')
-    return(<div>
+    return(<div className="transition">
                 <h2>Campus</h2>
                 <div className="paragraph">A prototype app that manages a university with multiple campuses and students.</div>
                 <br />

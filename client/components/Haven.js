@@ -3,7 +3,7 @@ import Iframe from 'react-iframe'
 
 const Haven = ({history}) => {
     history.replace('/Portfolio')
-    return(<div>
+    return(<div className="transition">
                 <h2>Haven</h2>
                 <div className="paragraph">Haven is a unique utility app designed to serve the communities of those in need. 
                 The aim of the app is to lend a hand to those who may not have any other avenue for support. 

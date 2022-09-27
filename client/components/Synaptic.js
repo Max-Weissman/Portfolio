@@ -3,7 +3,7 @@ import Iframe from 'react-iframe'
 
 const Pixi = ({history}) => {
     history.replace('/Portfolio')
-    return(<div>
+    return(<div className="transition">
                 <h2>Color Gradient and Pixelate Maze</h2>
                 <div className="paragraph">Two apps using the neural networking tool, Synaptic, for machine learning.
                 The Color Gradient app takes in a wavelength of color and outputs its best guess of what the RGB value would be. 

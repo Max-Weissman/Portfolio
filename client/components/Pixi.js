@@ -3,7 +3,7 @@ import Iframe from 'react-iframe'
 
 const Pixi = ({history}) => {
     history.replace('/Portfolio')
-    return(<div>
+    return(<div className="transition">
                 <h2>Princess Pixi</h2>
                 <div className="paragraph">Princess Pixi is a short 2D maze game.
                 The app uses PixiJS's sprite manipulation with Javascript based algorithms.</div>

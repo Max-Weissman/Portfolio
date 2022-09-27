@@ -15,11 +15,11 @@ export default class Main extends React.Component{
         return (<div className="content">
                     <h1>Max Weissman</h1>
                     <img className="Max" src="Max.jpg"/>
-                    <div className="line">Fullstack Software Developer</div>
-                    <div className="line">Technologies: Javascript, HTML, CSS, Git/Github, Node, SQL, Express, React, Redux, React Native,
+                    <div className="line one">Fullstack Software Developer</div>
+                    <div className="line two">Technologies: Javascript, HTML, CSS, Git/Github, Node, SQL, Express, React, Redux, React Native,
                     Firebase, PostgreSQL, Machine Learning</div>
-                    <div className="line">Technical Skills: Problem Solving, Debugging, Documentation, Testing</div>
-                    <div className="line">Other Skills: Teamwork, Coordination, Time Management, Quick Learner</div>
+                    <div className="line three">Technical Skills: Problem Solving, Debugging, Documentation, Testing</div>
+                    <div className="line four">Other Skills: Teamwork, Coordination, Time Management, Quick Learner</div>
                     <Navbar />
                     <Routes>
                         <Route path='/' element={<div history={history}/>}/>
@@ -30,7 +30,7 @@ export default class Main extends React.Component{
                         <Route path='/Social' element={<Social history={history}/>}/>
                         <Route path='/Campus' element={<Campus history={history}/>}/>
                     </Routes>
-                    <div className="row">
+                    <div className="row five">
                         <a href="https://github.com/Max-Weissman"><img src="github.svg"/></a>
                         <a href="https://www.linkedin.com/in/max-weissman/"><img src="LinkedIn.jpg"/></a>
                     </div>

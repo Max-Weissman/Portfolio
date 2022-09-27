@@ -3,7 +3,7 @@ import Iframe from 'react-iframe'
 
 const Pixi = ({history}) => {
     history.replace('/Portfolio')
-    return(<div>
+    return(<div className="transition">
                 <h2>Tavern Minis</h2>
                 <div className="paragraph">An online store for purchasing character minis, monster minis, paints, dice and various accessories. 
                 This app allows users to add, edit and checkout their cart.

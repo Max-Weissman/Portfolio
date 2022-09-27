@@ -3,7 +3,7 @@ import Iframe from 'react-iframe'
 
 const Pixi = ({history}) => {
     history.replace('/Portfolio')
-    return(<div>
+    return(<div className="transition">
                 <h2>The Social Network</h2>
                 <div className="paragraph">The Social Network is an app for recording social connections. 
                 Users can input relations and closeness to anyone they know and watch a network graph slowly fill out.</div>
