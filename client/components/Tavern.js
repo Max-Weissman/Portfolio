@@ -20,8 +20,6 @@ const Pixi = ({history}) => {
                 <br />
                 <a className="code" href="https://github.com/Tavern-Minis/Tavern-Minis">Source Code</a>
                 <br />
-                <a className="code" href="https://tavern-minis.herokuapp.com/home">Try it out!</a>
-                <br />
            </div>)
 }
 
